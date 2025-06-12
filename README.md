@@ -1,12 +1,24 @@
-# React + Vite
+🐨 Koalocator QLD
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Koalocator QLD is an interactive web application built with **React** and **Leaflet** that allows users to explore koala habitats across Queensland, Australia. It features a **live map**, **heatmap visualization**, **fun facts**, and a **postcode-based sanctuary search** — all designed to help users support and connect with koalas in a meaningful way.
 
-Currently, two official plugins are available:
+🌐 Live Demo: https://anilocator-qqul821u1-austins-projects-1868d765.vercel.app
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔍 Features
 
-## Expanding the ESLint configuration
+- 🗺️ Interactive map showing wild koala habitats
+- 🔥 Heatmap based on habitat size (hectares)
+- 📍 Postcode search for nearby koala sanctuaries
+- 🐾 “Help the Koalas” section with donation link
+- 📖 Fun facts and educational content
+- 🌍 Built using Queensland government geospatial data
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+ 🛠️ Tech Stack
+
+- **Frontend**: React, Vite, Leaflet, React-Leaflet, Leaflet.heat
+- **Deployment**: Vercel
+- **Data Sources**: Queensland Government Koala Datasets
+
